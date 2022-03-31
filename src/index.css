@@ -1,0 +1,237 @@
+/* Add CSS */
+a:hover, button:hover{
+  cursor:pointer;
+}
+body {
+  margin:0px;
+}
+.banner{
+    background-color: #cccccc;
+    width:100%;
+    font-size: 50px;
+    overflow: hidden;
+    font-family: Arial;
+    border-color: #878787;
+    border-style: solid;
+    display: block;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 10px;
+    position: sticky;
+    top: 0;
+}
+.main {
+  overflow:auto;
+}
+.banner a {
+    float: left;
+    background-color: #cccccc;
+    border: none;
+    background: none;
+    display: block;
+    color: #161616;
+    text-align: center;
+    font-size: 30px;
+    padding: 24px 30px;
+    font-weight:normal;
+    margin-top: -10px;
+}
+.banner a:hover {
+  background-color: #999999;
+  overflow: hidden;
+}
+
+.banner a.clicked {
+  background-color: #0281E8;
+  overflow: hidden;
+}
+
+.banner input{
+  float: right;
+  padding: 6px;
+  border-style: solid;
+  font-size: 30px;
+  margin-top: 8px;
+  margin-right: 20px;
+}
+
+.row {
+  padding-top: 30px;
+  overflow: hidden;
+  font-family: Arial;
+  display: block;
+  text-align: center;
+  margin: 0px 5%;
+  font-size: 30px;
+  color: black;
+}
+
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border-bottom: 3px inset;
+  text-align: left;
+  padding: 8px;
+}
+
+td a {
+  color: #0f81d8;
+  font-weight: bold;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+td a:hover { color: #0061ac; }
+
+.column {
+  float: left;
+  text-align:center;
+  width: 33%;
+  font-size: 35px;
+  font-weight: bold;
+  font-family: Arial;
+}
+
+.full {
+  width: 100%;
+  font-size: 50px;
+}
+
+.left {
+  width: 25%;
+  font-size: 20px;
+  text-align: left;
+}
+
+.right {
+  width: 25%;
+  font-size: 15px;
+  text-align: right;
+  font-weight: normal;
+}
+
+.middle {
+  width: 50%;
+}
+
+button {
+  background-color: #165A92;
+  color: white;
+  border-radius: 10px;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 10px;
+}
+
+.tag {
+  background-color: #666666;
+  border-radius: 40px;
+  font-size: 16px;
+  padding: 2px;
+  margin-right: 5px;
+  margin-left: 5px;
+  margin-top: 5px;
+}
+
+#qpage{
+  display: block;
+}
+
+#tpage, #qaskpage, #qerrors, #searchpage, #answerspage, #tlinkpage{
+  display: none;
+}
+
+.subtitle {
+  font-family: Arial;
+  font-size: 40px;
+  text-align: left;
+  font-weight: bold;
+}
+
+.row textarea {
+  height: 70px;
+  width: 100%;
+  font-size: 30px;
+  text-align: left;
+  padding: 20px;
+}
+
+.errors {
+  color: red;
+  font-size: 20px;
+}
+
+.lt {
+  text-align:left;
+}
+
+/*Tag Page Stuff*/
+.tagcard {
+  height: 150px;
+  padding: 10px;
+  width: 26%;
+  border-color: #878787;
+  border-style: solid;
+  border-radius: 2px;
+  margin: 30px;
+  float: center;
+  font-size: 30px;
+  font-weight: normal;
+}
+
+.tagcard a{
+  color: #0281E8;
+  text-decoration: underline;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.tagcard a:hover { color: #0061ac; }
+
+/* For Third Column */
+.asked {
+  color: #3f6998;
+}
+.on {
+  color: #417524;
+}
+.at {
+  color: #418486;
+}
+
+/*Individual CSS*/
+.size-25 {
+  font-size: 25px;
+}
+
+.text {
+  font-size: 20px;
+  font-weight: normal;
+  text-align: left;
+}
+
+/*Answer Stuff*/
+
+.answer{
+  width: 75%;
+}
+
+.tright {
+  text-align: right;
+  width: 25%
+}
+
+.bold{
+  font-weight: bold;
+  font-size: 30px;
+  text-align: center;
+}
+
+#qtext{
+  height: 150px;
+}
